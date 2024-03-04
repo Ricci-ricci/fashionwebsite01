@@ -1,0 +1,345 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    max-width: 1440px;
+    height: 3525px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.banner{
+    background-image:url(./image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -139px;
+    
+}
+.header{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.sectionbutton{
+    display: flex;
+    gap:50px;
+}
+.sectionbutton button{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    
+}
+.sectionbutton button:hover{
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    
+}
+
+.sectionbutton2 button{
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    border-color: black0;
+    color:white;
+    background-color: transparent;
+    cursor: pointer;
+    
+
+
+}
+.sectionbutton2{
+    display: flex;
+    gap:40px;
+   
+}
+button.login{
+    border: 2px solid blue;
+    padding: 8px 15px;
+    border-radius: 7px;
+    
+    
+}
+button.login:hover{
+    border: 2px solid white;
+    padding: 8px 15px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+
+}
+.section1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;    
+
+
+}
+.section1 button{
+    background-color: white;
+    padding: 20px 55px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+
+}
+.section1 button:hover{
+    background-color: blue;
+    padding: 20px 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    transition: 1.5ms;
+
+}
+
+.newfashion{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.reeses{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.newcollection{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+
+}
+.lorem{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.content{
+    width: 100%;
+    height: 1060px;
+    display: flex;
+    flex-direction: row;   
+    align-items: flex-end;
+    position: relative;
+    background-color: white;
+    
+    
+}
+.image1{
+    width: 564px;
+    height: 1002px;
+    background-image: url(./image2.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    
+}
+.image2{
+    width: 436px;
+    height: 485px;
+    background-image: url(./image3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position:absolute;
+    top: 576px;
+    left: 563px;
+    
+   
+}
+.image3{
+    width: 466px;
+    height: 574px;
+    background-image: url(./image5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position:absolute;
+    top: 0px;
+    left: 973px;
+    
+}
+.image4{
+    position: absolute;
+    width: 436px;
+    height: 485px;
+    background-image: url(./image4.jpg);
+    top: 576px;
+    right: 0px;
+    background-position: 40%;
+
+}
+.section2{
+    position: absolute;
+    width: 410px;
+    height: 575px;
+    top: 0px;
+    left: 563px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    
+}
+.recomended{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+
+}
+.eyewear{
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+}
+.section2 button{
+    background-color: black;
+    color: white;
+    padding: 20px 60px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+
+}
+.content2{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    position: relative;
+}
+.image6{
+    width: 563px;
+    height: 689px;
+    background-image: url(./image6.jpg);
+    position: absolute;
+    top: 195px;
+    right: 150px;
+
+}
+.section3{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 563px;
+    height: 689px;
+    top: 195px;
+    left: 0px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.section3 button{
+    background-color: white;
+    color: black;
+    padding: 20px 60px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.first{
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.second{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.third{
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+}
+.signup1{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.emailbutton input{
+   width: 450px;
+   height: 35px;
+    
+    
+}
+.emailbutton button{
+    background-color: black;
+    color: white;
+    padding: 20px 80px;
+    font-size: 15px;
+    cursor: pointer;
+}
+input[placeholder]{
+    padding: 10px;
+    font-size: 15px;
+}
+.socialmedia button{
+    font-size:40px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+}
+.socialmedia{
+    display: flex;
+    gap: 40px;
+}
+.lastsection{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+
+}
+.www{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.percent-29{
+   color: blue;
+}
+
